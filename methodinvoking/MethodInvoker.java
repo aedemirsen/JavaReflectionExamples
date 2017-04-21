@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package reflection;
+package methodinvoking;
 
 import java.lang.reflect.Method;
 
@@ -16,7 +16,7 @@ public class MethodInvoker {
     public static void main(String[] args) {
         
         String catName = "Kedi";
-        String className = "reflection.Cat"; //with package name
+        String className = "methodinvoking.Cat"; //with package name
         
         try {
             Class c = Class.forName(className);
